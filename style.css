@@ -8,6 +8,10 @@
 
 body {
     display: flex;
+    background-image: url('https://wpr-public.s3.amazonaws.com/ttbook/styles/story_full_image/s3/images/64-Red-Room-Empty.jpg?itok=37przzED');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
