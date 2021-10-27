@@ -1,34 +1,26 @@
-let data = [
+let data1 = [
     {
-        name: 'Casey',
-        age: '25'
-    },
-    {
-        name: 'Emma',
-        age: '21'
-    },
-    {
-        name: 'Jason',
-        age: '28'
-    },
-    {
-        name: 'Heather',
-        age: '46'
-    },
-    {
-        name: 'Marcel',
-        age: '44'
-    },
-    {
-        name: 'Louie',
-        age: '7'
+        name: 'Take a seat',
     }
 ];
 
+let data2 = [
+
+        {
+            name: 'Play a game',
+        }
+    
+];
+
+
 const info = document.querySelector('#info');
-let details = data.map(function(item) { 
-    return '<div>' + item.name + ' ' + item.age + '</div>';
+let details1 = data1.map(function(item) { 
+    return '<div>' + item.name +  '</div>';
     
 });
 
-info.innerHTML = details.join('\n');
+let details2 = data2.map(function(item) { 
+    return '<div>' + item.name +  '</div>';
+    
+});
+
