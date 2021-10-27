@@ -1,0 +1,1 @@
+# mysite is a website that I am actively using to learn while I teach myself how to build websites with JavaScript, HTML, CSS and Git. For this reason, the page is unfinished and in a constant state of construction.
